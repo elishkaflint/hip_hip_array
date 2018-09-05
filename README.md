@@ -1,77 +1,104 @@
-# 🌞🌞 Array of Sunshine 🌞🌞
+# Hip Hip Array
 
-## 🌞 How to use
+**Hip Hip Array is a web application designed to help beginner programmers find appropriate array methods. Simply input in the array you've got, along with the output you want, and the tool will generate all the methods to get you there. Available for 3 programming languages - Javascript, Ruby and Python.**
 
+## Contributors
+
+- Layth Al-Qattan - https://github.com/laythq
+- Bibi Collins - https://github.com/bibicollins
+- Elishka Flint - https://github.com/elishkaflint
+- John Forster - https://github.com/JohnForster
+
+## Demo
+
+[to be added]
+
+## Quickstart
+
+### Launching the application
+
+**EITHER** install the code:
+
+1. Clone the directory
 ```
-$ git clone https://github.com/bibicollins/array_of_sunshine.git
-$ cd array_of_sunshine
+$ git clone https://github.com/elishkaflint/hip_hip_array.git
+$ cd hip_hip_array
 $ npm install (requires node to be installed)
+```
+2. Start the back end server
+```
+$ npm start (web app will open in the browser at localhost:3000)
+```
+3. Start the front end server
+```
+In a new terminal window:
+$ cd client
 $ npm start (web app will open in the browser at localhost:3000)
 ```
 
-### 🌞 Our objectives as a team
+**OR** view the [app deployed on Heroku](https://hip-hip-array.herokuapp.com/)
 
-**1. Our project has a compelling technical aspect
-2. That said, we do not sacrifice developer processes for technical achievement
-3. We consolidate gaps in our learning from the course (we highlighted JSON API calls, client-side programming eg. React)
-4. We prefer a simple and finished output to a complex and messy/unfinished output
-5. We are all able to explain every aspect of the final product**
+### Running the tests
 
-### 🌞 Our project
+Back end and front end tests:
+```
+npm test
+```
+Current test coverage: **80%** [to be updated]
 
-**Our aim is to provide a useful tool for beginner developers which provides the code needed to get from an input to an output, and which works for multiple programming languages.**
+## Team Objectives
 
-In other words:
-- A single-page app, written in React
-- Suggests methods to get from an input to an output, for example:
-    1. User enters [a,b,c] as the input and [c,b,a] as the output
-    2. Program returns `input.reverse` to the user
-- Can  be used for a number of different programming languages
+We defined our objectives as a group at the start of our project, as follows:
 
-### 🌞 MVP
+- Our project has a compelling technical aspect
+- That said, we do not sacrifice developer processes for technical achievement
+- We consolidate gaps in our learning from the course (we highlighted JSON API calls, client-side programming eg. React)
+- We prefer a simple and finished output to a complex and messy/unfinished output
+- We are all able to explain every aspect of the final product
+
+## Process Highlights
+
+- We took an Agile approach to structuring our work (daily stand ups, 2 day sprints each followed by a team retrospective).
+- We took on a new project after 2 days, because we didn't feel comfortable with our initial idea (you can read more about that [here](https://hackmd.io/hdESol_BTpmGwfJR8lY9Gw)).
+- We used Trello to organise tickets.
+- We used TDD to drive creation of each individual model. We wrote retrospective tests for some of the React elements because it was our first time programming with this library.
+
+## Implemented User Stories
 ```
 As a user
-So that I can use the right array method in Ruby
+So that I can use the right array method
 I want to be able to input a simple initial array and a simple target array and be
 given the method which gets me from one to the other
 ```
-In practice this is:
-- A web application written in React
-- 10 array methods
-- 1 language - Ruby
-
-### 🌞 Potential future user stories
-
 ```
-As a developer,
-So that I can use this functionality when I'm coding
-I want an extension to my text editor which suggests code for me
-
-As a user
-So that I can use the right array method in multiple languages
-I want to be able to input initial and output arrays in eg. Ruby, Javascript, C++,
-Python and Whitespace
-
-As a user
-So that I can learn about different languages
-I want to be able to hover over methods and see information about the method
-
-As a user
-So that I can retain my learnings
-I want to have an account and a search history
-
 As a user
 So that I can use the tool for more complex methods
 I want to be able to use arrays which take arguments
-
+```
+```
 As a user
 So that I can use the tool for more complex methods
-I want to be able to input other objects than arrays (multi-dimensional arrays,
-hashes, strings)
+I want to be able to input multi-dimensional arrays
 ```
-### Todo
-1. Stack info
-2. Screenshot of the program in action
-3. What we would have done with more time
-4. Test coverage
-5. ...
+```
+As a user
+So that I can learn about lots of different languages
+I want to be able to use the tool for Ruby, Javascript and Python
+```
+```
+As a user
+So that I can revisit my searches
+I want my queries to be logged in a search history
+```
+```
+As a user
+So that I can use the tool easily
+I want to access the programme via a clean user interface
+```
+## What we would do next
+
+- Improve the Python model which currently returns only very basic array methods
+- Conduct thorough user-testing to find and cover edge cases
+- Increase our test coverage by writing additional tests, particularly on the client-side
+- Create user accounts so history can be retained between browser sessions
+- Extend our product further (additional languages, Atom plug in etc)
