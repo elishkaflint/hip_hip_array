@@ -9,9 +9,9 @@
 - Elishka Flint - https://github.com/elishkaflint
 - John Forster - https://github.com/JohnForster
 
-## Demo
+## Screenshot
 
-[to be added]
+![screenshot](./screenshot.png)
 
 ## Quickstart
 
@@ -44,7 +44,7 @@ Back end and front end tests:
 ```
 npm test
 ```
-Current test coverage: **80%** [to be updated]
+Current test coverage: **83%**
 
 ## Team Objectives
 
